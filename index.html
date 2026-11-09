@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>İklim Akademisi</title>
+<link rel="icon" href="iko_wave_web.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main" id="skip-link">İçeriğe geç</a>
+<header class="topbar">
+  <a class="brand" href="#/home" id="brand-link"><img src="iko_wave_web.png" alt="" class="brand-iko"><span id="brand-name">İklim Akademisi</span></a>
+  <nav class="mainnav" id="mainnav" aria-label="Ana menü"></nav>
+  <div class="tools">
+    <div class="langs" role="group" id="lang-group" aria-label="Dil"></div>
+    <button class="a11y-btn" id="a11y-toggle" aria-expanded="false" aria-controls="a11y-panel">Aa</button>
+  </div>
+</header>
+<div class="a11y-panel" id="a11y-panel" hidden></div>
+<div class="demo-banner" id="demo-banner" role="note"></div>
+<main id="main" tabindex="-1"></main>
+<footer class="foot" id="foot"></footer>
+<div class="sr-only" aria-live="polite" id="live"></div>
+<script src="content.js"></script>
+<script src="games.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
